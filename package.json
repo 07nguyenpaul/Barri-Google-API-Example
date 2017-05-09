@@ -1,0 +1,32 @@
+{
+  "name": "fluffy-computing-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/07nguyenpaul/Barri-Google-API-Example.git"
+  },
+  "author": "Paul Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/07nguyenpaul/Barri-Google-API-Example/issues"
+  },
+  "homepage": "https://github.com/07nguyenpaul/Barri-Google-API-Example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-cors": "0.0.3",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "mocha-loader": "^1.1.1",
+    "webpack": "^2.4.1"
+  }
+}
